@@ -1,0 +1,128 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(59, 58, 58);
+}
+
+.size {
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 30px;
+}
+
+section {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.container {
+    margin-left: 90px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.container p {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.container a {
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.book {
+    text-decoration: none;
+    background-color: rgb(255, 5, 101);
+    color: white;
+}
+
+.mart {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(7, 170px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2em;
+}
+
+.product {
+    margin-top: 70px;
+    margin-left: 90px;
+    width: 90%;
+}
+
+.product h1 {
+    margin-left: 430px;
+    font-size: 40px;
+    color: black;
+}
+
+.fa-star {
+    color: orange;
+    padding-right: 4px;
+}
+
+.fa-star-half-o {
+    color: orange;
+}
+
+.product-sell {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sell {
+    margin-top: 60px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-top: 15px;
+    box-shadow: lightslategray 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.sell img {
+    width: 350px;
+}
+
+.sell h6 {
+    font-size: 15px;
+    color: lightslategray;
+    margin-top: 0;
+}
+
+.sell h3 {
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+.sell p {
+    margin-bottom: 0;
+}
