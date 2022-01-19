@@ -307,3 +307,78 @@ footer p {
         font-size: 10px;
     }
 }
+
+@media only screen and (max-width: 992px) and (min-width:669px) {
+    .size {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .mart {
+        margin-left: 130px;
+        width: 60%;
+        grid-template-columns: repeat(7, 90px);
+        justify-content: center;
+        justify-items: center;
+    }
+    .mart img {
+        width: 60px;
+        margin-bottom: 5px;
+    }
+    .product-sell {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        padding-left: 10px;
+    }
+    .product h1 {
+        margin-left: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    .sell {
+        margin-right: 50;
+        text-align: center;
+        padding-right: 20px;
+    }
+    .sell img {
+        width: 120px;
+    }
+    .sell h3 {
+        font-size: 20px;
+    }
+    .sell h6 {
+        font-size: 15px;
+    }
+    .tap {
+        width: 85%;
+    }
+    .bottom {
+        flex-direction: row;
+        align-items: center;
+    }
+    .gopro img {
+        width: 350px;
+        height: 220px;
+    }
+    .file h1 {
+        font-size: 20px;
+    }
+    .file p {
+        font-size: 10px;
+    }
+    footer h1 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+}
